@@ -2,7 +2,7 @@ import * as React from 'react';
 import clsx from 'clsx';
 
 const variants = {
-  neutral:'slds-button slds-button_neutral',
+  neutral:'slds-button_neutral',
   brand:'slds-button_brand',
   outlineBrand:'slds-button_outline-brand',
   destructive:'slds-button_destructive',
@@ -31,6 +31,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         type={type}
         className={clsx(
+          'slds-button',
           variants[variant],
           className
         )}
