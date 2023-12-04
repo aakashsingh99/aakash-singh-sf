@@ -1,7 +1,13 @@
+import Brand from "@components/Brand/Brand"
+import { ResumeHeader } from "./components/ResumeHeader"
+
 function App() {
   return (
     <>
-      Hello World
+      <Brand variant="large"/>
+      <div className="slds-m-around_small">
+        <ResumeHeader/>
+      </div>
     </>
   )
 }
