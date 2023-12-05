@@ -5,6 +5,9 @@ import { FC } from "react"
 export const ExperiencePanel : FC = () => {
   return (
     <Card>
+        <div className='slds-page-header__title slds-m-bottom_medium'>
+            Experience
+        </div>
         <ExpandableSection title="Associate, Cognizant" badge="Oct, 2023 - Present">
           <div className="slds-p-bottom_small slds-m-bottom_small slds-border_bottom">
             <ul className="bullet-ul slds-m-left_small">
