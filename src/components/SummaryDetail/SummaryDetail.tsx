@@ -23,18 +23,17 @@ export const SummaryDetail : FC<SummaryDetailProps> = ({badge, children, summary
         </div>
         <div>
           <div className="slds-summary-detail__title">
-            <div className="slds-grid">
-                <h3 className="slds-text-heading_small slds-truncate slds-p-right_small" title={title}>{title}</h3>
-                <span className="slds-badge"> {badge} </span>
+            <div className="slds-grid slds-text-title_caps">
+                <h2 className="slds-text-heading_medium  slds-p-right_small" title={title}>{title} <span className="slds-badge_inverse"> {badge} </span></h2>
               </div>
               <p>{summary}</p>
           </div>
           {
             toggle &&
             (<div aria-hidden="false" className="slds-summary-detail__content" id="expando-unique-id">
-              <p>
+              <div>
                   {children}
-              </p>
+              </div>
           </div>)
           }
         </div>
