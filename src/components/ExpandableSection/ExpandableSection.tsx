@@ -11,7 +11,7 @@ export const ExpandableSection: FC<ExpandableSectionProps> = ({badge, children, 
 
   return (
     <div className={`slds-section ${toggle && 'slds-is-open'}`}>
-        <h3 style={{fontWeight:'bold'}} className="slds-section__title slds-theme_shade slds-p-left_small" onClick={() => setToggle(!toggle)}>
+        <h3 className="slds-text-title_bold slds-section__title slds-theme_shade slds-p-left_small" onClick={() => setToggle(!toggle)}>
             <span className={`${!toggle && 'rotated'}`}>
                 <svg className="slds-button__icon slds-summary-detail__action-icon" aria-hidden="true">
                     <use xlinkHref="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>

@@ -1,8 +1,9 @@
 import Brand from "@components/Brand/Brand"
-import { ResumeHeader } from "./components/ResumeHeader"
+import { ResumeHeader } from "@components/ResumeHeader"
 import { Card } from "@components/Card"
 import { Path } from "@components/Path"
 import { ExperiencePanel } from "@components/ExperiencePanel"
+import { RecordDetail } from "@components/RecordDetail/RecordDetail"
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         </div>
         <div className="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_4-of-12">
           <div className="slds-m-vertical_xx-small slds-m-horizontal_small">
-            <ExperiencePanel/>
+            <RecordDetail/>
           </div>
         </div>
       </div>
