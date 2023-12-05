@@ -5,6 +5,7 @@ import { Path } from "@components/Path"
 import { ExperiencePanel } from "@components/ExperiencePanel"
 import { RecordDetail } from "@components/RecordDetail/RecordDetail"
 import { EducationPanel } from "@components/EducationPanel"
+import { CertificationPanel } from "@components/CertficationPanel"
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         <div className="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_4-of-12">
           <div className="slds-m-vertical_small slds-m-horizontal_small">
             <RecordDetail/>
+          </div>
+          <div className="slds-m-vertical_small slds-m-horizontal_small">
+            <CertificationPanel/>
           </div>
         </div>
       </div>

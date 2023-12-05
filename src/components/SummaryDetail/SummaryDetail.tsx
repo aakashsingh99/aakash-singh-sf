@@ -24,7 +24,7 @@ export const SummaryDetail : FC<SummaryDetailProps> = ({badge, children, summary
         <div>
           <div className="slds-summary-detail__title">
             <div className="slds-grid slds-text-title_caps">
-                <h2 className="slds-text-heading_medium  slds-p-right_small" title={title}>{title} <span className="slds-badge_inverse"> {badge} </span></h2>
+                <h2 className="slds-text-heading_small  slds-p-right_small" title={title}>{title} <span className="slds-badge_inverse"> {badge} </span></h2>
               </div>
               <p>{summary}</p>
           </div>
