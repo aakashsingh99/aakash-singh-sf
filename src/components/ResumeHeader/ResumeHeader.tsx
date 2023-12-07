@@ -61,10 +61,6 @@ export const ResumeHeader : FC = () => {
                         </div>
                     </li>
                     <li className="slds-page-header__detail-block">
-                        <div className="slds-text-title slds-truncate" title="Mobile">Mobile</div>
-                        <div className="slds-truncate" title="MobileNumber">+91 9903415210</div>
-                    </li>
-                    <li className="slds-page-header__detail-block">
                         <div className="slds-text-title slds-truncate" title="Email">Email</div>
                         <div className="slds-truncate" title="Hyperlink">
                             <a href="mailto:aakash.1k99@gmail.com">aakash.1k99@gmail.com</a>
