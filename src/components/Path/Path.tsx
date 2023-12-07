@@ -8,14 +8,14 @@ const initPathList : PathItemProps[] = [
         pathId: 'path-1',
         status: 'complete',
         tabIndex: -1,
-        title: 'Contacted',
+        title: 'Open',
     },
     {
         active: false,
         pathId: 'path-2',
         status: 'complete',
         tabIndex: -1,
-        title: 'Open',
+        title: 'Contacted',
     },
     {
         active: false,
