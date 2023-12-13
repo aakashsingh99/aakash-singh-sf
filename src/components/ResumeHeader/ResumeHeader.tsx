@@ -9,29 +9,29 @@ export const ResumeHeader : FC = () => {
     return (
         <div className="slds-page-header slds-page-header_record-home">
             <div className="slds-page-header__row slds-grid slds-wrap">
-                    <div className="slds-page-header__col-title slds-size_1-of-1 slds-large-size_8-of-12">
-                        <div className="slds-media">
-                            <div className="slds-media__figure">
-                                <span className="slds-icon_container slds-icon-standard-opportunity">
-                                    <svg className="slds-icon slds-page-header__icon" aria-hidden="true">
-                                        <use xlinkHref="/assets/icons/standard-sprite/svg/symbols.svg#opportunity"></use>
-                                    </svg>
-                                </span>
-                            </div>
-                            <div className="slds-media__body">
-                                <div className="slds-page-header__name">
-                                    <div className="slds-page-header__name-title">
-                                        <h1>
-                                            <span>
-                                                Resume
-                                            </span>
-                                            <span className="slds-page-header__title slds-truncate" title="Acme - 1,200 Widgets">
-                                                Aakash Singh
-                                            </span>
-                                        </h1>
-                                    </div>
+                <div className="slds-page-header__col-title slds-size_1-of-1 slds-large-size_8-of-12">
+                    <div className="slds-media">
+                        <div className="slds-media__figure">
+                            <span className="slds-icon_container slds-icon-standard-opportunity">
+                                <svg className="slds-icon slds-page-header__icon" aria-hidden="true">
+                                    <use xlinkHref="/assets/icons/standard-sprite/svg/symbols.svg#opportunity"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div className="slds-media__body">
+                            <div className="slds-page-header__name">
+                                <div className="slds-page-header__name-title">
+                                    <h1>
+                                        <span>
+                                            Resume
+                                        </span>
+                                        <span className="slds-page-header__title slds-truncate" title="Acme - 1,200 Widgets">
+                                            Aakash Singh
+                                        </span>
+                                    </h1>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
                 <div className="slds-m-top_small slds-page-header__col-actions slds-col slds-size_1-of-1 slds-large-size_4-of-12">

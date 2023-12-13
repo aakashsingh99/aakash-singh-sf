@@ -12,13 +12,13 @@ export const ExperiencePanel : FC = () => {
           <div className="slds-p-bottom_small slds-m-bottom_small slds-border_bottom">
             <ul className="bullet-ul slds-m-left_small">
               <li>
-                Perform feasibility analysis and work on proof-of-concepts for designing requirements.
+                Collaborated with stakeholders to gather and analyze business requirements, translating them into effectiveSalesforce solutions
               </li>
               <li>
-                Design and develop a second MyInsights Dashboard for the Medical Rep at Territory level, providing actionable insights and data visualization to enhance decision-making processes.
+                Identified key improvements from prior work on MyInsights visualizations and developed the solution in salesforce org ensuring widespread adoption for maximum organizational benefit
               </li>
               <li>
-                Troubleshoot routine problems and work on enhancements
+                Created comprehensive training materials for Veeva MyInsights, ensuring that teams across the organization could effectively utilize it for data-driven decision-making. The training materials received positive feedback for their clarity and effectiveness.              
               </li>
             </ul>
           </div>
@@ -27,16 +27,16 @@ export const ExperiencePanel : FC = () => {
           <div className="slds-p-bottom_small slds-m-bottom_small slds-border_bottom">
               <ul className="bullet-ul slds-m-left_small">
                 <li>
-                  Working as sole Offshore POC to design and implement a dashboard using ReactJS enabling efficient management of interactions with Accounts. Integrated the interface with Veeva MyInsights to provide enhanced reporting capabilities, thus improving productivity of Medical Representatives.
+                  Designed and developed a dashboard using ReactJS enabling efficient management of interactions with Accounts. Integrated the interface with Veeva MyInsights & Salesforce org to provide enhanced reporting capabilities, thus improving productivity of Medical Representatives.                
                 </li>
                 <li>
-                  Worked on an Integration module from scratch to search, filter & add records from a different org. Used Async apex to poll the data on daily interval. UI made with LWC and Integration done with REST.
+                  Worked on an Integration module from scratch to search, filter & add records from a different org. Used Async apex to poll the data on daily interval. UI made with LWC and Integration done with REST                
                 </li>
                 <li>
-                  Worked on the Suggestions module in Veeva CRM, Added functionality to Myinsights dashboard to allow users to take action on suggestions from one place.
+                 Upgraded Veeva CRM's Suggestions module, integrating action functionality in MyInsights. Implemented Reports and Dashboards for L2 Managers to assess suggestion efficiency.                
                 </li>
                 <li>
-                  Worked on optimization of a module to bulk update records from uploaded csv by end user, furthur customized for several countries. Successfully decreased dml, soql counts and CPU usage.
+                  Worked on optimization of a module to bulk update records from uploaded csv by end user, furthur customized for several countries. Successfully decreased dml, soql counts and CPU usage.                
                 </li>
               </ul>
           </div>
@@ -48,6 +48,9 @@ export const ExperiencePanel : FC = () => {
             </li>
             <li>
               Migrated declarative functionality to programmatic ones, optimizing the VEM approval process, resulting in a reduction of over 75% in maintained components
+            </li>
+            <li>
+              Administered and maintained Salesforce instance, including user management, developing, testing, and implementing custom Salesforce solutions
             </li>
           </ul>
         </ExpandableSection>
