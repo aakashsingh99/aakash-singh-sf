@@ -7,7 +7,7 @@ export const RecordDetail : FC = () => {
     <Card>
         <div className="slds-m-bottom_small slds-text-title_bold">Additional Details</div>
         <div className="slds-m-horizontal_small">
-          <DetailRow field="Salesforce Skills" value="LWC, Apex, Flow, SOQL"/>
+          <DetailRow field="Salesforce Skills" value="LWC, Apex, Triggers, Flow, SOQL, Reporting, User Management, Approval Process"/>
           <DetailRow field="Veeva Skills" value="Veeva CRM, Veeva MyInsights, Veeva Event Management"/>
           <DetailRow field="Other Skills" value="Javascript, ReactJS"/>
           <DetailRow field="Language" value="English, Hindi, Bengali"/>
