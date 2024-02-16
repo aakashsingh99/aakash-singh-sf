@@ -48,6 +48,16 @@ export const CertificationPanel : FC = () => {
                 </div>
             </SummaryDetail>
         </div>
+        <div className="slds-border_bottom slds-p-bottom_x-small slds-m-bottom_x-small">
+            <SummaryDetail title="Salesforce Certified Platform Developer II">
+                <div>
+                    Credential ID: 4130302
+                </div>
+                <div>
+                    Issued: Feb, 2024
+                </div>
+            </SummaryDetail>
+        </div>
     </Card>
   )
 }
