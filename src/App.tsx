@@ -6,11 +6,15 @@ import { ExperiencePanel } from "@components/ExperiencePanel"
 import { RecordDetail } from "@components/RecordDetail/RecordDetail"
 import { EducationPanel } from "@components/EducationPanel"
 import { CertificationPanel } from "@components/CertficationPanel"
+import Alert from "@components/Alert/Alert"
 
 function App() {
   return (
     <>
       <Brand variant="large"/>
+      {/* <div className="slds-m-around_small"> */}
+        <Alert variant="info" text={'Serving Notice Period'}/>
+      {/* </div> */}
       <div className="slds-m-around_small">
         <ResumeHeader/>
       </div>
