@@ -15,10 +15,10 @@ export const ExperiencePanel : FC = () => {
                 Collaborated with stakeholders to gather and analyze business requirements, translating them into effective salesforce solutions
               </li>
               <li>
-                Created comprehensive <strong>training materials</strong> for Veeva MyInsights, ensuring that teams across the organization could effectively utilize it for data-driven decision-making. The training materials received positive feedback for their clarity and effectiveness.              
+                Acted as the offshore <strong>Point of Contact</strong> to scale and enhance prior delivered MVP  across multiple markets. Setup Azure DevOps and Git to streamline project management
               </li>
               <li>
-                Added support for <strong>translations</strong> for prior MyInsights project and scaled for other markets
+                Created comprehensive <strong>training materials</strong> for Veeva MyInsights, ensuring that teams across the organization could effectively utilize it for data-driven decision-making. The training materials received positive feedback for their clarity and effectiveness.              
               </li>
               <li>
                 Identified key improvements from prior work on MyInsights visualizations and developed the solution in salesforce org ensuring widespread adoption for maximum organizational benefit

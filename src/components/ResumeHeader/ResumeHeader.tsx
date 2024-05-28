@@ -68,7 +68,7 @@ export const ResumeHeader : FC = () => {
                         <li className="slds-page-header__detail-block">
                             <div className="slds-text-title" title="Experience">Experience</div>
                             <div className="" title="MobileNumber">
-                                2.5 Yrs
+                                3 Yrs
                             </div>
                         </li>
                         <li className="slds-page-header__detail-block">
