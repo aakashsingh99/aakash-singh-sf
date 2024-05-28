@@ -9,22 +9,22 @@ export const CertificationPanel : FC = () => {
             Certifications
         </div>
         <div className="slds-border_bottom slds-p-bottom_x-small slds-m-bottom_x-small">
-            <SummaryDetail title="Salesforce Certified Administrator">
+            <SummaryDetail title="Salesforce Certified Sales Cloud Consultant">
                 <div>
-                    Credential ID: 2822981
+                    Credential ID: 4554812
                 </div>
                 <div>
-                    Issued: Dec, 2022
+                    Issued: May, 2024
                 </div>
             </SummaryDetail>
         </div>
         <div className="slds-border_bottom slds-p-bottom_x-small slds-m-bottom_x-small">
-            <SummaryDetail title="Salesforce Certified Platform Developer I">
+            <SummaryDetail title="Salesforce Certified Platform Developer II">
                 <div>
-                    Credential ID: 3026876
+                    Credential ID: 4130302
                 </div>
                 <div>
-                    Issued: Feb, 2023
+                    Issued: Feb, 2024
                 </div>
             </SummaryDetail>
         </div>
@@ -49,12 +49,22 @@ export const CertificationPanel : FC = () => {
             </SummaryDetail>
         </div>
         <div className="slds-border_bottom slds-p-bottom_x-small slds-m-bottom_x-small">
-            <SummaryDetail title="Salesforce Certified Platform Developer II">
+            <SummaryDetail title="Salesforce Certified Platform Developer I">
                 <div>
-                    Credential ID: 4130302
+                    Credential ID: 3026876
                 </div>
                 <div>
-                    Issued: Feb, 2024
+                    Issued: Feb, 2023
+                </div>
+            </SummaryDetail>
+        </div>
+        <div className="slds-border_bottom slds-p-bottom_x-small slds-m-bottom_x-small">
+            <SummaryDetail title="Salesforce Certified Administrator">
+                <div>
+                    Credential ID: 2822981
+                </div>
+                <div>
+                    Issued: Dec, 2022
                 </div>
             </SummaryDetail>
         </div>
